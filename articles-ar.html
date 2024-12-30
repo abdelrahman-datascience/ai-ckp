@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title>مقالات الذكاء الاصطناعي - AI.Knowledge</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <script src="https://kit.fontawesome.com/0a01d9140e.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min-ar.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style-ar.css" rel="stylesheet">
+</head>
+
+<body dir="rtl">
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="/index-ar.html" class="navbar-brand">
+                    <img src="img/logo.png" alt=""  style="width: 210px; height: auto;">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index-ar.html" class="nav-item nav-link active">الرئيسية</a>
+                        <a href="#articles" class="nav-item nav-link">المقالات</a>
+                        <a href="1.intro-ai-ar.html" class="nav-item nav-link">المقدمة</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">أنواع ال AI  &nbsp; </a>
+                            <div class="dropdown-menu bg-light mt-2" dir="rtl">
+                                <a href="2.machine-learning-vs-deep-learning-ar.html" class="dropdown-item">تعلم الآلة والتعلم العميق</a>
+                                <a href="3.narrow-ai-vs-general-ai-ar.html" class="dropdown-item">الذكاء الاصطناعي الضيق مقابل الذكاء الاصطناعي العام</a>
+                                <a href="4.nlp-ar.html" class="dropdown-item">معالجة اللغة الطبيعية (NLP)</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">تطبيقات ال AI  &nbsp;  </a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="5.ai-healthcare-ar.html" class="dropdown-item">الذكاء الاصطناعي في مجال الرعاية الصحية</a>
+                                <a href="6.ai-finance-ar.html" class="dropdown-item">الذكاء الاصطناعي في المالية</a>
+                                <a href="7.ai-education-ar.html" class="dropdown-item">الذكاء الاصطناعي في التعليم</a>
+                                <a href="8.ai-entertainment-ar.html" class="dropdown-item">الذكاء الاصطناعي في الترفيه</a>
+                                <a href="9.ai-business-ar.html" class="dropdown-item">الذكاء الاصطناعي في الأعمال التجارية</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">أخلاقيات ال AI  &nbsp; </a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="10.responsible-ai-ar.html" class="dropdown-item">الذكاء الاصطناعي المسؤول</a>
+                                <a href="11.ethical-ai-ar.html" class="dropdown-item">الاعتبارات الأخلاقية في الذكاء الاصطناعي</a>
+                                <a href="12.bais-ai-ar.html" class="dropdown-item">التحيز في الذكاء الاصطناعي</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">تقنيات ال AI  &nbsp;  </a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="13.robotics-automation-ar.html" class="dropdown-item">الروبوتات والأتمتة</a>
+                                <a href="14.computer-vision-ar.html" class="dropdown-item">رؤية الحاسوب</a>
+                                <a href="15.speech-recognition-ar.html" class="dropdown-item">تعرف الكلام</a>
+                                <a href="16.virtual-augmanted-reality-ar.html" class="dropdown-item">الواقع الافتراضي والمعزز</a>
+                            </div>
+                        </div>
+                    </div>
+                    <select id="languageSelect" onchange="changeLanguage()">
+                        <option value="ar" lang="ar">العربية</option>
+                        <option value="en" lang="en">English</option>
+                    </select>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">مقالات الذكاء الاصطناعي</h1>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/hero-img.png" alt="" style="max-height: 300px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Case Start -->
+    <section id="articles">
+        <div class="container-fluid bg-light py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">مقالات حول الذكاء الاصطناعي</div>
+                    <h1 class="mb-4">استكشف أحدث مقالات الذكاء الاصطناعي</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                        <div class="case-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="img/project-1.jpg" alt="">
+                            <a class="case-overlay text-decoration-none" href="25.article1-ar.html">
+                                <small>الذكاء الاصطناعي</small>
+                                <h5 class="lh-base text-white mb-3" style="text-shadow: 0px 0px 10px #000;">الذكاء الاصطناعي شرح: دليلك الودود للذكاء الاصطناعي
+                                </h5>
+                                <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="case-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="img/project-2.jpg" alt="">
+                            <a class="case-overlay text-decoration-none" href="26.article2-ar.html">
+                                <small>الذكاء الاصطناعي</small>
+                                <h5 class="lh-base text-white mb-3" style="text-shadow: 0px 0px 10px #000;">الذكاء الاصطناعي في الأفلام: من أحلام الخيال العلمي إلى الواقع
+                                </h5>
+                                <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="case-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="/img/project-5.jpg" alt="">
+                            <a class="case-overlay text-decoration-none" href="27.article3-ar.html">
+                                <small>الذكاء الاصطناعي</small>
+                                <h5 class="lh-base text-white mb-3" style="text-shadow: 0px 0px 10px #000;">الذكاء الاصطناعي وألعاب الفيديو: قوة الواقع الافتراضي
+                                </h5>
+                                <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="case-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="/img/project-4.jpg" alt="">
+                            <a class="case-overlay text-decoration-none" href="28.article4-ar.html">
+                                <small>الذكاء الاصطناعي</small>
+                                <h5 class="lh-base text-white mb-3" style="text-shadow: 0px 0px 10px #000;">الذكاء الاصطناعي والفن: إطلاق الإبداع في العصر الرقمي
+                                </h5>
+                                <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="case-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="/img/project-3.jpg" alt="">
+                            <a class="case-overlay text-decoration-none" href="29.article5-ar.html">
+                                <small>الذكاء الاصطناعي</small>
+                                <h5 class="lh-base text-white mb-3" style="text-shadow: 0px 0px 10px #000;">الذكاء الاصطناعي والأخلاق: توجيه البوصلة الأخلاقية الرقمية
+                                </h5>
+                                <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="case-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" style="opacity: 1; background-color: black;" src="/img/project-6.jpg" alt="">
+                            <a class="case-overlay text-decoration-none" href="30.article6-ar.html">
+                                <small>الذكاء الاصطناعي</small>
+                                <h5 class="lh-base text-white mb-3" style="text-shadow: 0px 0px 10px #000;">الذكاء الاصطناعي في التعليم: ثورة في تجربة التعلم
+                                </h5>
+                                <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!-- Case End -->
+
+    <!-- Contents Start -->
+    <section id="contents">
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">محتويات الموقع</div>
+                    <h1 class="mb-4">الذكاء الاصطناعي في كل مكان من حولنا</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="accordion" id="accordionFAQ1">
+                            <div class="accordion-item wow fadeIn" data-wow-delay="0.1s">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                         مقدمة حول الذكاء الاصطناعي   &nbsp;  
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionFAQ1">
+                                    <div class="accordion-body">
+                                        الذكاء الاصطناعي (AI) هو مجال في علم الحاسوب يهدف إلى إنشاء آلات ذكية قادرة على أداء المهام التي تتطلب عادة الذكاء البشري. تشمل هذه المهام التعلم والاستدلال وحل المشكلات وفهم اللغة الطبيعية والإدراك. تتيح تقنيات الذكاء الاصطناعي، مثل التعلم الآلي والشبكات العصبية، للكمبيوترات محاكاة وظائف العقل البشري، مما يؤدي إلى تقدم في مختلف الصناعات وإعادة تشكيل طريقتنا في التفاعل مع التكنولوجيا.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        أنواع الذكاء الاصطناعي  &nbsp;  
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionFAQ1">
+                                    <div class="accordion-body">
+                                        <a href="3.narrow-ai-vs-general-ai-ar.html">الذكاء الاصطناعي المحدد vs. الذكاء الاصطناعي العام</a><br>
+                                        <a href="2.machine-learning-vs-deep-learning-ar.html">تعلم الآلة والتعلم العميق</a><br>
+                                        <a href="4.nlp-ar.html">معالجة اللغة الطبيعية (NLP)</a><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        أدوات الذكاء الاصطناعي  &nbsp;  
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionFAQ1">
+                                    <div class="accordion-body">
+                                        <a href="17.chatgpt-ara.html">ChatGPT</a><br>
+                                        <a href="18.bard-ar.html">Bard - Google</a><br>
+                                        <a href="19.tome-ar.html">Tome.app</a><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item wow fadeIn" data-wow-delay="0.3s">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        تطبيقات الذكاء الاصطناعي  &nbsp;  
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionFAQ1">
+                                    <div class="accordion-body">
+                                        <a href="5.ai-healthcare-ar.html">الذكاء الاصطناعي في مجال الرعاية الصحية</a><br>
+                                        <a href="6.ai-finance-ar.html">الذكاء الاصطناعي في المالية</a><br>
+                                        <a href="7.ai-education-ar.html">الذكاء الاصطناعي في التعليم</a><br>
+                                        <a href="8.ai-entertainment-ar.html">الذكاء الاصطناعي في الترفيه</a><br>
+                                        <a href="9.ai-business-ar.html">الذكاء الاصطناعي في الأعمال</a><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-lg-6">
+                        <div class="accordion" id="accordionFAQ2">
+                            <div class="accordion-item wow fadeIn" data-wow-delay="0.5s">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        تقنيات الذكاء الاصطناعي  &nbsp;  
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionFAQ2">
+                                    <div class="accordion-body">
+                                        <a href="13.robotics-automation-ar.html">الروبوتات والأتمتة</a><br>
+                                        <a href="14.computer-vision-ar.html">رؤية الحواسيب</a><br>
+                                        <a href="15.speech-recognition-ar.html">تعرف الكلام</a><br>
+                                        <a href="16.virtual-augmanted-reality-ar.html">الواقع الافتراضي والمعزز</a><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item wow fadeIn" data-wow-delay="0.6s">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        الذكاء الاصطناعي في الحياة اليومية  &nbsp;  
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionFAQ2">
+                                    <div class="accordion-body">
+                                        <a href="20.Ai-smart-devices-ar.html">الذكاء الاصطناعي في الأجهزة الذكية</a><br>
+                                        <a href="21.ai-personal-assistant-ar.html">الذكاء الاصطناعي في المساعدين الشخصيين</a><br>
+                                        <a href="22.ai-recommender-ar.html">الذكاء الاصطناعي في أنظمة التوصية</a><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item wow fadeIn" data-wow-delay="0.7s">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        اتجاهات المستقبل في الذكاء الاصطناعي  &nbsp;  
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                    data-bs-parent="#accordionFAQ2">
+                                    <div class="accordion-body">
+                                        <a href="23.ai-future-ar.html">مستقبل الذكاء الاصطناعي</a><br>
+                                        <a href="24-emergin-ai-ar.html">التقنيات الناشئة في الذكاء الاصطناعي</a><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item wow fadeIn" data-wow-delay="0.8s">
+                                <h2 class="accordion-header" id="headingEight">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                        الأخلاقيات والذكاء الاصطناعي  &nbsp;  
+                                    </button>
+                                </h2>
+                                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                    data-bs-parent="#accordionFAQ2">
+                                    <div class="accordion-body">
+                                        <a href="10.responsible-ai-ar.html">الذكاء الاصطناعي المسؤول</a><br>
+                                        <a href="11.ethical-ai-ar.html">الاعتبارات الأخلاقية في الذكاء الاصطناعي</a><br>
+                                        <a href="12.bais-ai-ar.html">التحيز في الذكاء الاصطناعي</a><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Contents Start -->
+                
+
+    <!-- Newsletter Start -->
+    <div class="container-fluid bg-primary newsletter py-5" dir="ltr">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
+                    <img class="img-fluid" src="img/newsletter.png" alt="">
+                </div>
+                <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s" dir="rtl">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">النشرة الإخبارية</div>
+                    <h1 class="text-white mb-4">اشترك الان في النشرة الإخبارية</h1>
+                    <div class="position-relative w-100 mt-3 mb-2">
+                        <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="email"
+                            placeholder="أدخل بريدك الإلكتروني" id="email" name="email" style="height: 48px;">
+                        <button onclick="validateForm()" type="button"
+                            class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                class="fa fa-paper-plane text-primary fs-4"></i></button>
+                    </div>
+                    <small class="text-white-50">عند الاشتراك في النشرة الإخبارية، سنرسل لك المزيد من المقالات والتحديثات في مجال الذكاء الاصطناعي</small>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- Newsletter End -->
+
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-white-50 footer pt-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s" style="width: 700px;">
+                <a href="index.html" class="d-inline-block mb-3">
+                    <h1 class="text-white">AI.<span class="text-primary">Knowledge</span></h1>
+                </a>
+                <p class="mb-0">الذكاء الاصطناعي.المعرفة، وجهتك المفضلة لاستكشاف أعماق الذكاء الاصطناعي. اغمر في عالم المعرفة حيث يتم توفير تعلم الذكاء الاصطناعي بشكل مفصل وجذاب ومفيد. من الأدلة السهلة للمبتدئين إلى التحليلات الخبيرة، موقعنا هو بوصلتك خلال المشهد المتطور باستمرار للذكاء الاصطناعي. اكتشف أحدث الاتجاهات، وفهم المفاهيم الأساسية، وابقَ في المقدمة في ثورة الذكاء الاصطناعي. انضم إلينا في رحلة استكشاف وتمكين وتنوير حيث نقوم بفك رموز عالم الذكاء الاصطناعي، جعل المعرفة حول الذكاء الاصطناعي متاحة للجميع.</p>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s" style="width: 620px;">
+                <h5 class="text-white mb-4">تواصل معنا</h5>
+                <p><i class="fa fa-map-marker-alt me-3" style="padding-left: 15px;"></i>القاهرة، مصر</p>
+                <p><i class="fa fa-phone-alt me-3" style="padding-left: 15px;"></i>01119727579</p>
+                <p><i class="fa fa-envelope me-3" style="padding-left: 15px;"></i>abdelrahmanmohamedhafez83@gmail.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href="https://twitter.com/abdelrahman.data"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://facebook.com/itz.boudii"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@CodeCraft0"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://instagram.com/abdelrahman.data"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/abdelrhmanmohmed/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container wow fadeIn" data-wow-delay="0.1s">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; جميع الحقوق محفوظة. تم تصميم وتطوير هذا الموقع بواسطة <a class="border-bottom" href="#">عبد الرحمن محمد</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="#">الرئيسية</a>
+                        <a href="#contents">المحتوى</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title>اكتشف الذكاء الاصطناعي - AI.Knowledge</title>
+    <link rel="icon" href="favicon.webp">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="keywords" content="الذكاء الاصطناعي، تكنولوجيا الذكاء الاصطناعي، تعلم الآلة، التعلم العميق، معالجة اللغة الطبيعية، الروبوتات، الأتمتة، تطبيقات الذكاء الاصطناعي، الرعاية الصحية، المالية، التعليم، الترفيه، الأعمال، التقنيات الناشئة، الأجهزة الذكية، المساعدين الشخصيين في الذكاء الاصطناعي، أنظمة التوصية، مستقبل الذكاء الاصطناعي، الذكاء الاصطناعي المسؤول، الاعتبارات الأخلاقية في الذكاء الاصطناعي، التحيز في الذكاء الاصطناعي">
+    <meta name="description" content="استكشف عالم الذكاء الاصطناعي على موقعنا. اغمر نفسك في عوالم تعلم الآلة والتعلم العميق ومعالجة اللغة الطبيعية. تعرف على تطبيقات الذكاء الاصطناعي المتنوعة، من تحويل الرعاية الصحية والمالية إلى ثورة في التعليم والترفيه. اكتشف التقنيات المتقدمة مثل الروبوتات والأتمتة ورؤية الحواسيب وتعرف الكلام. ابق على اطلاع حول اتجاهات المستقبل في الذكاء الاصطناعي والاعتبارات الأخلاقية المحيطة بهذا المجال الذي يتطور بسرعة. انضم إلينا في رحلة عبر ذكاء الآلات، مع إعادة تشكيل طريقتنا في العيش والعمل والتفاعل مع التكنولوجيا.">
+    
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <script src="https://kit.fontawesome.com/0a01d9140e.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min-ar.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style-ar.css" rel="stylesheet">
+</head>
+
+<body dir="rtl">
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top" style="margin-top: 44px;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="/index-ar.html" class="navbar-brand">
+                    <!-- <h1 class="text-white">AI<span class="text-dark">.</span>Knowledge</h1> -->
+                    <img src="img/logo.png" alt=""  style="width: 210px; height: auto;">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index-ar.html" class="nav-item nav-link active">الرئيسية</a>
+                        <a href="#articles" class="nav-item nav-link">المقالات</a>
+                        <a href="1.intro-ai-ar.html" class="nav-item nav-link">المقدمة</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">أنواع ال AI  &nbsp; </a>
+                            <div class="dropdown-menu bg-light mt-2" dir="rtl">
+                                <a href="2.machine-learning-vs-deep-learning-ar.html" class="dropdown-item">تعلم الآلة والتعلم العميق</a>
+                                <a href="3.narrow-ai-vs-general-ai-ar.html" class="dropdown-item">الذكاء الاصطناعي القوي مقابل الذكاء الاصطناعي الضعيف</a>
+                                <a href="4.nlp-ar.html" class="dropdown-item">معالجة اللغة الطبيعية (NLP)</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">تطبيقات ال AI  &nbsp;  </a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="5.ai-healthcare-ar.html" class="dropdown-item">الذكاء الاصطناعي في مجال الرعاية الصحية</a>
+                                <a href="6.ai-finance-ar.html" class="dropdown-item">الذكاء الاصطناعي في المالية</a>
+                                <a href="7.ai-education-ar.html" class="dropdown-item">الذكاء الاصطناعي في التعليم</a>
+                                <a href="8.ai-entertainment-ar.html" class="dropdown-item">الذكاء الاصطناعي في الترفيه</a>
+                                <a href="9.ai-business-ar.html" class="dropdown-item">الذكاء الاصطناعي في الأعمال التجارية</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">أخلاقيات ال AI  &nbsp; </a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="10.responsible-ai-ar.html" class="dropdown-item">الذكاء الاصطناعي المسؤول</a>
+                                <a href="11.ethical-ai-ar.html" class="dropdown-item">الاعتبارات الأخلاقية في الذكاء الاصطناعي</a>
+                                <a href="12.bais-ai-ar.html" class="dropdown-item">التحيز في الذكاء الاصطناعي</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">تقنيات ال AI  &nbsp;  </a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="13.robotics-automation-ar.html" class="dropdown-item">الروبوتات والأتمتة</a>
+                                <a href="14.computer-vision-ar.html" class="dropdown-item">رؤية الحاسوب</a>
+                                <a href="15.speech-recognition-ar.html" class="dropdown-item">تعرف الكلام</a>
+                                <a href="16.virtual-augmanted-reality-ar.html" class="dropdown-item">الواقع الافتراضي والمعزز</a>
+                            </div>
+                        </div>
+                    </div>
+                    <select id="languageSelect" onchange="changeLanguage()">
+                        <option value="ar" lang="ar">العربية</option>
+                        <option value="en" lang="en">English</option>
+                    </select>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+    <!-- Hero Start -->
+
+    <section id="hero">
+        <div class="container-fluid pt-5 bg-primary hero-header mb-5" dir="rtl">
+            <div class="container pt-5" dir="rtl">
+                <div class="row g-5 pt-5" dir="rtl">
+                    <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5" dir="rtl">
+                        <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">AI.Knowledge</div>
+                        <h1 class="display-4 text-white mb-4 animated slideInRight" style="font-family: 'Cairo', sans-serif;"><i class="fa-solid fa-lightbulb"></i> استكشاف التطور وابتكار المستقبل .</h1>
+                        <p class="text-white mb-4 animated slideInRight" style="font-size: 18px;">هل أنت مستعد للانطلاق في رحلة اكتشاف؟ استمتع بالغوص في عالم الذكاء الاصطناعي واشهد القوة التي تشكّل مناظرنا الرقمية. دعونا نعيد تعريف المستقبل معًا.</p>
+                        <a href="https://letsview.com/ai-tools" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight" style="margin-left: 30px;">جرب ادوات ال AI ألان</a>
+                        <a href="#contents" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">محتويات الموقع</a>
+                    </div>
+                    <div class="col-lg-6 align-self-end text-center text-lg-end">
+                        <img id="imghero" class="img-fluid" src="img/heroo-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero End -->
+
+
+    
+    <div class="news-container">
+        <div class="title">
+            اخر اخبار ال AI
+        </div>
+        <ul>
+            <li><b>26 ديسمبر 2023:</b> أصدرت OpenAI نموذج اللغة ChatGPT-4 المحسّن بشكل كبير والذي يتمتع بقدرة تحليل واستدلال محسّنة ودقة أكبر في الحقائق.</li>
+            <li><b>22 ديسمبر 2023:</b> حققت DeepMind التفوق الكمومي في حل محاكاة طي البروتين، مما قد يسرع من اكتشاف الأدوية.</li>
+            <li><b>19 ديسمبر 2023:</b> أصدرت الولايات المتحدة أمرًا تنفيذيًا بشأن تطوير الذكاء الاصطناعي المسئول، مع التركيز على الإنصاف والشفافية والمساءلة.</li>
+            <li><b>15 ديسمبر 2023:</b> اجتاز روبوت محادثة ذكي جديد في الولايات المتحدة امتحان ترخيص الطب، مما أثار جدلاً حول دور الذكاء الاصطناعي في الرعاية الصحية.</li>
+            <li><b>12 ديسمبر 2023:</b> طور باحثون من معهد ماساتشوستس للتكنولوجيا سرب طائرات بدون طيار تعمل بالذكاء الاصطناعي قادرة على القيام بمناورات ذاتية معقدة.</li>
+            <li><b>7 ديسمبر 2023:</b> صوّت البرلمان الأوروبي على اعتماد لوائح أكثر صرامة على الذكاء الاصطناعي، بهدف معالجة المخاوف الأخلاقية والتحيز.</li>
+            <li><b>5 ديسمبر 2023:</b> كشفت جوجل عن LaMDA 3، نموذج ذكاء اصطناعي محادثة جديد قادر على توليد تنسيقات نصية إبداعية مختلفة.</li>
+            <li><b>2 ديسمبر 2023:</b> طور باحثون صينيون نظام ذكاء اصطناعي يمكنه ترجمة اللغات بطلاقة قريبة من مستوى الإنسان.</li>
+            <li><b>29 نوفمبر 2023:</b> تم تحديد نظام التعرف على الوجوه الذي تستخدمه شرطة الولايات المتحدة على أنه متحيز عنصريًا، مما أثار مخاوف بشأن تطبيقات الذكاء الاصطناعي التمييزية.</li>
+            <li><b>25 نوفمبر 2023:</b> أنشأ العلماء أجنة اصطناعية باستخدام الذكاء الاصطناعي، مما دفع حدود الهندسة الحيوية.</li>
+          </ul>                
+    </div>
+
+
+    <!-- About Start -->
+    <section id="about">
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="about-img">
+                            <img class="img-fluid" src="img/about-img.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">حولنا</div>
+                        <h1 class="mb-4">عن <span style="color: darkblue;">AI.Knowledge</span> وتعرّف أكثر على الذكاء الاصطناعي</h1>
+                        <p class="mb-4">مرحبًا بك في <span>AI.Knowledge</span>، بوابتك إلى عالم الذكاء الاصطناعي (AI). نحن في مهمة لفك رموز الذكاء الاصطناعي، نقدم رؤى حول أساسياته، وتطبيقاته، وتأثيره على الحياة اليومية. استكشف الإمكانيات، وابق على اطلاع مع مقالاتنا، واكتشف كيف يشكل الذكاء الاصطناعي مستقبل الأعمال، والتعليم، وما وراء ذلك. انضم إلينا في فك رموز عجائب الذكاء الاصطناعي وتأثيره المحوري على طريقة حياتنا وعملنا.</p>
+                        <p class="mb-4">هل أنتم جاهزون للانطلاق في رحلة اكتشاف؟ غوصوا في عالم الذكاء الاصطناعي واشهدوا على القوة التي تشكل منظرنا الرقمي. لنعيد تعريف المستقبل معًا.</p>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>  &nbsp; الذكاء الاصطناعي</h6>
+                                <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>  &nbsp; تطبيقات الذكاء الاصطناعي</h6>
+                            </div>
+                            <div class="col-sm-6">
+                                <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>  &nbsp; كيفية استخدامه</h6>
+                                <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>  &nbsp; مقالات حول الذكاء الاصطناعي</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mt-4">
+                            <a class="btn btn-primary rounded-pill px-4 me-3" href="#contents">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About End -->
+
+
+    <!-- Contents Start -->
+<section id="contents">
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">محتويات الموقع</div>
+                <h1 class="mb-4">الذكاء الاصطناعي في كل مكان من حولنا</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFAQ1">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.1s">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                     مقدمة حول الذكاء الاصطناعي   &nbsp;  
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    الذكاء الاصطناعي (AI) هو مجال في علم الحاسوب يهدف إلى إنشاء آلات ذكية قادرة على أداء المهام التي تتطلب عادة الذكاء البشري. تشمل هذه المهام التعلم والاستدلال وحل المشكلات وفهم اللغة الطبيعية والإدراك. تتيح تقنيات الذكاء الاصطناعي، مثل التعلم الآلي والشبكات العصبية، للكمبيوترات محاكاة وظائف العقل البشري، مما يؤدي إلى تقدم في مختلف الصناعات وإعادة تشكيل طريقتنا في التفاعل مع التكنولوجيا.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    أنواع الذكاء الاصطناعي  &nbsp;  
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    <a href="3.narrow-ai-vs-general-ai-ar.html">لذكاء الاصطناعي المحدد مقابل الذكاء الاصطناعي العام</a><br>
+                                    <a href="2.machine-learning-vs-deep-learning-ar.html">تعلم الآلة والتعلم العميق</a><br>
+                                    <a href="4.nlp-ar.html">معالجة اللغة الطبيعية (NLP)</a><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    أدوات الذكاء الاصطناعي  &nbsp;  
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    <a href="17.chatgpt-ara.html">ChatGPT</a><br>
+                                    <a href="18.bard-ar.html">Bard - Google</a><br>
+                                    <a href="19.tome-ar.html">Tome.app</a><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.3s">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    تطبيقات الذكاء الاصطناعي  &nbsp;  
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    <a href="5.ai-healthcare-ar.html">الذكاء الاصطناعي في مجال الرعاية الصحية</a><br>
+                                    <a href="6.ai-finance-ar.html">الذكاء الاصطناعي في المالية</a><br>
+                                    <a href="7.ai-education-ar.html">الذكاء الاصطناعي في التعليم</a><br>
+                                    <a href="8.ai-entertainment-ar.html">الذكاء الاصطناعي في الترفيه</a><br>
+                                    <a href="9.ai-business-ar.html">الذكاء الاصطناعي في الأعمال</a><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFAQ2">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.5s">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    تقنيات الذكاء الاصطناعي  &nbsp;  
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    <a href="13.robotics-automation-ar.html">الروبوتات والأتمتة</a><br>
+                                    <a href="14.computer-vision-ar.html">رؤية الحواسيب</a><br>
+                                    <a href="15.speech-recognition-ar.html">تعرف الكلام</a><br>
+                                    <a href="16.virtual-augmanted-reality-ar.html">الواقع الافتراضي والمعزز</a><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    الذكاء الاصطناعي في الحياة اليومية  &nbsp;  
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    <a href="20.Ai-smart-devices-ar.html">الذكاء الاصطناعي في الأجهزة الذكية</a><br>
+                                    <a href="21.ai-personal-assistant-ar.html">الذكاء الاصطناعي في المساعدين الشخصيين</a><br>
+                                    <a href="22.ai-recommender-ar.html">الذكاء الاصطناعي في أنظمة التوصية</a><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.7s">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    اتجاهات المستقبل في الذكاء الاصطناعي  &nbsp;  
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    <a href="23.ai-future-ar.html">مستقبل الذكاء الاصطناعي</a><br>
+                                    <a href="24-emergin-ai-ar.html">التقنيات الناشئة في الذكاء الاصطناعي</a><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    الأخلاقيات والذكاء الاصطناعي  &nbsp;  
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    <a href="10.responsible-ai-ar.html">الذكاء الاصطناعي المسؤول</a><br>
+                                    <a href="11.ethical-ai-ar.html">الاعتبارات الأخلاقية في الذكاء الاصطناعي</a><br>
+                                    <a href="12.bais-ai-ar.html">التحيز في الذكاء الاصطناعي</a><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Contents Start -->
+            
+
+    <!-- Service Start -->
+<section id="typesofai">
+    <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">تقنيات الذكاء الاصطناعي</div>
+                    <h1 class="mb-4">لنتعرف أكثر على تقنيات الذكاء الاصطناعي</h1>
+                    <p class="mb-4">تتضمن تقنيات الذكاء الاصطناعي مجموعة متنوعة من المجالات الابتكارية، حيث تسهم كل منها في تطوير أنظمة ذكية. من روبوتات الأتمتة إلى الرؤية الحاسوبية وتقنية التعرف على الكلام، هذه التقنيات تعيد تعريف كيفية تفاعل الآلات مع العالم من حولها.</p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-robot fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">روبوتات الأتمتة</h5>
+                                        <p>في مجال الذكاء الاصطناعي، تتضمن روبوتات الأتمتة إنشاء آلات ذكية قادرة على أداء المهام بشكل تلقائي. من التصنيع إلى الرعاية الصحية، تساعد هذه الأنظمة في تسريع العمليات وتعزيز الكفاءة، ولها القدرة على ثورة صناعات بأكملها.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="13.robotics-automation-ar.html">اقرأ المزيد</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-power-off fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">الرؤية الحاسوبية</h5>
+                                        <p>الرؤية الحاسوبية هي مجال من مجالات الذكاء الاصطناعي الذي يمكن الآلات من تفسير واتخاذ قرارات استنادًا إلى البيانات البصرية. إنها تمكّن تطبيقات مثل التعرف على الصور وكشف الكائنات والتعرف على الوجوه، محدثة ثورة في صناعات مثل الأمان والرعاية الصحية وسيارات القيادة الذاتية.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="14.computer-vision-ar.html">اقرأ المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-graduation-cap fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">"Speech Recognition" تعرف على الكلام</h5>
+                                        <p>تتركز تكنولوجيا تعرف الكلام "Speech Recognition" على تمكين الآلات من فهم وتفسير اللغة النطقية. من المساعدات الافتراضية إلى الأجهزة التي تعمل بالصوت، أصبحت تكنولوجيا تعرف الكلام جزءًا أساسيًا من التفاعل بين الإنسان والكمبيوتر، مما يوفر الراحة والوصول السهل.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="15.speech-recognition-ar.html">اقرأ المزيد</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-brain fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">الواقع الافتراضي والواقع المعزز</h5>
+                                        <p>تقنيات الواقع الافتراضي والواقع المعزز تغمر المستخدمين في تجارب رقمية من خلال دمج العناصر الافتراضية مع العالم الحقيقي. يخلق الواقع الافتراضي بيئات محاكاة تمامً
+
+ا، بينما يرسم الواقع المعزز عناصر رقمية فوق العالم الحقيقي، مما يجعلها تطبيقات مثيرة للاهتمام في مجالات مثل الألعاب والتعليم والرعاية الصحية.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="16.virtual-augmanted-reality-ar.html">اقرأ المزيد</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Service End -->
+
+    <!-- Case Start -->
+    <section id="aitools">
+        <div class="container-fluid bg-light py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">أدوات الذكاء الاصطناعي</div>
+                    <h1 class="mb-4">استكشف أحدث أدوات الذكاء الاصطناعي</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                        <div class="case-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="img/tools-2.jpeg" alt="">
+                            <a class="case-overlay text-decoration-none" href="17.chatgpt-ara.html">
+                                <small>الذكاء الاصطناعي</small>
+                                <h5 class="lh-base text-white mb-3" style="font-size: 28px;">تشات جي بي تي (ChatGPT)
+                                </h5>
+                                <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="case-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="img/tools-1.jpg" alt="">
+                            <a class="case-overlay text-decoration-none" href="18.bard-ar.html">
+                                <small>الذكاء الاصطناعي</small>
+                                <h5 class="lh-base text-white mb-3" style="font-size: 28px;">بارد (Bard)
+                                </h5>
+                                <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="case-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="/img/tool-3.jpg" alt="">
+                            <a class="case-overlay text-decoration-none" href="19.tome-ar.html">
+                                <small>الذكاء الاصطناعي</small>
+                                <h5 class="lh-base text-white mb-3" style="font-size: 28px;">تومي (Tome.app)
+                                </h5>
+                                <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary rounded-pill px-4" href="https://letsview.com/ai-tools">جميع ادوات الذكاء الاصطناعي</a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Case End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-primary feature pt-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">استثمار الذكاء الاصطناعي</div>
+                    <h1 class="text-white mb-4">لنتحدث عن استثمار الذكاء الاصطناعي والشركات التي تستثمر فيه</h1>
+                    <p class="text-light mb-4">استثمار الذكاء الاصطناعي هو ركيزة للتقدم التكنولوجي، حيث يدفع الابتكار ويشكل مستقبل الصناعات. تلعب الشركات التي تشارك بنشاط في استثمار الذكاء الاصطناعي دورًا حيويًا في تعزيز التطورات الرائدة، بدءًا من الشركات الناشئة حتى الشركات الكبيرة. يعكس هذا المشهد الديناميكي التزاماً باستغلال إمكانيات الذكاء الاصطناعي عبر قطاعات متنوعة.</p>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <span style="font-weight: 700;">أمثلة على مستثمري الذكاء الاصطناعي:</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>  &nbsp;  أعلنت شركات SoftBank وApple وFoxconn عن صندوق رؤية ثانٍ هذا العام.</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>  &nbsp;  قامت Microsoft باستثمار مليار دولار في OpenAI.</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>  &nbsp;  تسعى شركة إيلون ماسك X.AI إلى جمع مليار دولار للتنافس في مجال الذكاء الاصطناعي.</span>
+                    </div>
+                    <div class="row g-4 pt-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-dollar-sign fa-3x text-white" style="padding-left: 20px;"></i>  &nbsp;  
+                                <div class="ms-3">
+                                    <h2 class="text-white mb-0" data-toggle="counter-up">142.3</h2>
+                                    <p class="text-white mb-0">بلغت استثمارات الذكاء الاصطناعي العالمية 142.3 مليار دولار في عام 2023، مما يشير إلى زيادة قدرها 20٪.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-check fa-3x text-white" style="padding-left: 20px;"></i>  &nbsp;  
+                                <div class="ms-3">
+                                    <h2 class="text-white mb-0" data-toggle="counter-up">35</h2>
+                                    <p class="text-white mb-0">نمت استثمارات الشركات في الذكاء الاصطناعي بنسبة 35٪ في العام الماضي، حيث بلغت الاستثمارات السنوية ذروتها في عام 2021، عندما تم استثمار 276.1 مليار دولار.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/feature.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Feature End -->
+
+
+    <!-- Global Leaders Start  -->
+    <div class="container-xxl py-5" dir="ltr">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s" dir="rtl">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3" dir="ltr">الذكاء الاصطناعي من خلال عيون القادة العالميين</div>
+                    <h1 class="mb-4" dir="rtl" style="direction: rtl;"> ماذا يقول النجوم والقادة العالميون حول الذكاء الاصطناعي</h1>
+                    <p class="mb-4" dir="rtl">من تايتانات التكنولوجيا إلى الفلاسفة، الفنانين إلى النشطاء، تشكل المحادثة حول الذكاء الاصطناعي عالمنا. في هذا القسم، نستكشف وجهات النظر المتنوعة للشخصيات الرائدة حول الإمكانيات والتحديات ومستقبل هذه التكنولوجيا التحولية.</p>
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel border-start border-primary">
+                        <!-- شهادة إيلون ماسك -->
+                        <div class="testimonial-item ps-5" dir="rtl">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">أعتقد أن الذكاء الاصطناعي خطير بشكل أكبر من الأسلحة النووية. (2018)، في المدى القريب، من المرجح أن يكون الذكاء الاصطناعي إيجابيًا أكثر من كونه سلبيًا للبشرية. (2019)</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle testimonial-imgsa" src="img/testimonial-1.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">إيلون ماسك</h5>
+                                    <span>الرئيس التنفيذي لتيسلا وسبيس إكس</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- شهادة سام ألتمان -->
+                        <div class="testimonial-item ps-5" dir="rtl">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">الذكاء الاصطناعي هو أهم تطور تكنولوجي في عصرنا. (2016)، يجب أن نكون حذرين في كيفية تطوير الذكاء الاصطناعي، ولكن يجب أن نكون أيضًا حذرين من عدم التخوف الزائد منه. (2017)</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle testimonial-imgsa" src="img/testimonial-2.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">سام ألتمان</h5>
+                                    <span>مستثمر، رئيس شركة OpenAI</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- شهادة ديميس حسابيس -->
+                        <div class="testimonial-item ps-5" dir="rtl">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">الذكاء الاصطناعي لا يتعلق بتعويض البشر، بل يتعلق بتعزيزهم. (2017)، الشيء الأكثر أهمية هو التأكد من تطوير الذكاء الاصطناعي بطريقة تعود بالفائدة على جميع البشرية. (2018)</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle testimonial-imgsa" src="img/testimonial-3.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">ديميس حسابيس</h5>
+                                    <span>عالم أعصاب، مؤسس DeepMind</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- شهادة سندر بيشاي -->
+                        <div class="testimonial-item ps-5" dir="rtl">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">الذكاء الاصطناعي هو أحد أهم مجالات عصرنا، ولديه القدرة على تغيير العالم للأفضل. (2016)، يجب أن نكون حذرين في كيفية تطوير واستخدام الذكاء الاصطناعي، ولكن يجب أن نكون أيضًا جريئين وطموحين. (2017)</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle testimonial-imgsa" src="img/testimonial-5"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">سندر بيشاي</h5>
+                                    <span>عالم حاسوب، الرئيس التنفيذي لشركة Google وAlphabet</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- شهادة فيفي لي -->
+                        <div class="testimonial-item ps-5" dir="rtl">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">الذكاء الاصطناعي ليس فقط عن الآلات، بل عن فهم العقل البشري. (2018)، يجب علينا استخدام الذكاء الاصطناعي لجعل العالم مكانًا أفضل، وهذا يعني التركيز على المشاكل التي تهم الناس. (2019)</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle testimonial-imgsa" src="img/testimonial-6"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">فيفي لي</h5>
+                                    <span>عالم حاسوب، مدير معهد Stanford's AI Human-Centered</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- شهادة يوشوا بينجيو -->
+                        <div class="testimonial-item ps-5" dir="rtl">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">الذكاء الاصطناعي ليس خيارًا سحريًا، ولكن يمكن أن يكون أداة قوية لحل بعض أهم مشاكل العالم. (2017)، يجب علينا التأكد من أن يكون الذكاء الاصطناعي متاحًا ومفيدًا للجميع، ليس فقط للأثرياء. (2018)</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle testimonial-imgsa" src="img/testimonial-7.jpeg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">يوشوا بينجيو</h5>
+                                    <span>عالم حاسوب، فائز بجائزة تورينغ، باحث في مجال الذكاء الاصطناعي</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Global Leaders End  -->
+
+<section id="education">
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="img/ai-educaion.png">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">الذكاء الاصطناعي في التعليم</div>
+                        <h1 class="mb-4">كيف يساعد الذكاء الاصطناعي في التعليم ؟</h1>
+                        <p class="mb-4">الذكاء الاصطناعي يشكل ثورة في عالم التعليم، حيث يقدم حلاً مبتكرًا لتعزيز عمليات التعلم وتحسين نتائج الطلاب. يُعد الذكاء الاصطناعي أداة فعّالة تساهم في تحسين تجربة التعلم بشكل شامل.</p>
+                    <p class="mb-4">باستخدام تحليل خوارزميات التعلم الآلي، يمكن للذكاء الاصطناعي تقديم مسارات تعلم مخصصة لكل طالب، مستفيدًا من فهمه الدقيق لنقاط قوته وضعفه. تعزز منصات التعلم الذكية القائمة على الذكاء الاصطناعي التفاعل الجاذب وتكييف وتيرة التعلم لتلبية احتياجات الطلاب بفعالية أكبر.</p>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>  &nbsp; الذكاء الاصطناعي</h6>
+                            <p class="mb-0">يمكن للذكاء الاصطناعي تحليل أنماط تعلم الطلاب وتقديم توجيه فعّال لتحسين تجربة التعلم.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>  &nbsp; تطبيقات الذكاء الاصطناعي</h6>
+                            <p class="mb-0">تشمل تطبيقات الذكاء الاصطناعي تحسين تقييم الطلاب وتوفير خيارات تعلم متنوعة وشخصية.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="mb-3 mt-4"><i class="fa fa-check text-primary me-2"></i>  &nbsp; كيفية استخدامه</h6>
+                            <p class="mb-0">يتم استخدام الذكاء الاصطناعي في إنشاء بيئات تعلم مخصصة وتحسين تفاعل الطلاب مع المحتوى التعليمي.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="mb-3 mt-4"><i class="fa fa-check text-primary me-2"></i>  &nbsp; مقالات حول الذكاء الاصطناعي</h6>
+                            <p class="mb-0">توفر المقالات حول الذكاء الاصطناعي إلقاء نظرة عميقة على كيفية تحسين العمليات التعليمية وتعزيز الفهم لدى الطلاب.</p>
+                        </div>
+                    </div>
+                    <h4 class="mt-5">يساعدنا الذكاء الاصطناعي في:</h4>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>  &nbsp; تقديم تعلم مخصص وفعّال.</h6>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>  &nbsp; تعزيز التفاعل والاستمتاع بعملية التعلم.</h6>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>  &nbsp; تحليل أداء الطلاب بشكل دقيق وفعّال.</h6>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>  &nbsp; تق
+                    
+                    ديم خيارات تعلم متنوعة وملهمة.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Case Start -->
+<section id="articles">
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">مقالات حول الذكاء الاصطناعي</div>
+                <h1 class="mb-4">استكشف أحدث مقالات الذكاء الاصطناعي</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/project-1.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="25.article1-ar.html">
+                            <small>الذكاء الاصطناعي</small>
+                            <h5 class="lh-base text-white mb-3">الذكاء الاصطناعي شرح: دليلك الودود للذكاء الاصطناعي
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/project-2.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="26.article2-ar.html">
+                            <small>الذكاء الاصطناعي</small>
+                            <h5 class="lh-base text-white mb-3">الذكاء الاصطناعي في الأفلام: من أحلام الخيال العلمي إلى الواقع
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="/img/project-3.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="27.article3-ar.html">
+                            <small>الذكاء الاصطناعي</small>
+                            <h5 class="lh-base text-white mb-3">الذكاء الاصطناعي وألعاب الفيديو: قوة الواقع الافتراضي
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <a class="btn btn-primary rounded-pill px-4" href="articles-ar.html">لكل المقالات</a>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- Case End -->
+
+        
+    <!-- Newsletter Start -->
+    <div class="container-fluid bg-primary newsletter py-5" dir="ltr">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
+                    <img class="img-fluid" src="img/newsletter.png" alt="">
+                </div>
+                <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s" dir="rtl">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">النشرة الإخبارية</div>
+                    <h1 class="text-white mb-4">اشترك الان في النشرة الإخبارية</h1>
+                    <div class="position-relative w-100 mt-3 mb-2">
+                        <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="email"
+                            placeholder="أدخل بريدك الإلكتروني" id="email" name="email" style="height: 48px;">
+                        <button onclick="validateForm()" type="button"
+                            class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                class="fa fa-paper-plane text-primary fs-4"></i></button>
+                    </div>
+                    <small class="text-white-50">عند الاشتراك في النشرة الإخبارية، سنرسل لك المزيد من المقالات والتحديثات في مجال الذكاء الاصطناعي</small>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- Newsletter End -->
+
+    <div class="news-container1">
+        <ul>
+            <li><b>انقذوا غزة, فلسطين حرة</b></li>
+          </ul>          
+    </div>
+
+
+
+
+
+    <!-- Team Start -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">مطور ومصمم الموقع</div>
+                    <h1 class="mb-4">من قام بتطوير هذا الموقع؟</h1>
+                    <p class="mb-4">تم تطوير هذا الموقع بواسطة عبد الرحمن محمد عبد الحافظ، مطور ومصمم ويب ماهر ملتزم بإنشاء منصة عبر الإنترنت مبتكرة وسهلة الاستخدام. يهدف التطوير إلى توفير تجربة مستخدم سلسة وجذابة، مع استخدام أحدث التقنيات لتلبية احتياجات جمهوره المتنوع. يولي مبتكر الموقع اهتمامًا خاصًا لضمان الوصول إلى المعلومات والوظائف والجماليات لتقديم موقع يعمل بشكل فعّال ويستمتع به مستخدموه.</p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/team-1.jpg" alt="">
+                                        <h5 class="mb-0">عبد الرحمن محمد عبد الحافظ</h5>
+                                        <small>مطور واجهة المستخدم</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href="https://facebook.com/itz.boudii"><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href="https://twitter.com/abdelrahman.data"><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href="https://instagram.com/abdelrahman.data"><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href="https://www.linkedin.com/in/abdelrhmanmohmed/"><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Team End -->
+
+    <div class="container py-5">
+        <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">ألاراء</div>
+            <h1 class="mb-4">ما رايك عن الموقع؟</h1>
+        </div>
+        <div class="powr-comments" id="dbdd7f1d_1703689338"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
+    </div>
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-white-50 footer pt-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s" style="width: 700px;">
+                <a href="index.html" class="d-inline-block mb-3">
+                    <h1 class="text-white">AI.<span class="text-primary">Knowledge</span></h1>
+                </a>
+                <p class="mb-0">الذكاء الاصطناعي.المعرفة، وجهتك المفضلة لاستكشاف أعماق الذكاء الاصطناعي. اغمر في عالم المعرفة حيث يتم توفير تعلم الذكاء الاصطناعي بشكل مفصل وجذاب ومفيد. من الأدلة السهلة للمبتدئين إلى التحليلات الخبيرة، موقعنا هو بوصلتك خلال المشهد المتطور باستمرار للذكاء الاصطناعي. اكتشف أحدث الاتجاهات، وفهم المفاهيم الأساسية، وابقَ في المقدمة في ثورة الذكاء الاصطناعي. انضم إلينا في رحلة استكشاف وتمكين وتنوير حيث نقوم بفك رموز عالم الذكاء الاصطناعي، جعل المعرفة حول الذكاء الاصطناعي متاحة للجميع.</p>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s" style="width: 620px;">
+                <h5 class="text-white mb-4">تواصل معنا</h5>
+                <p><i class="fa fa-map-marker-alt me-3" style="padding-left: 15px;"></i>القاهرة، مصر</p>
+                <p><i class="fa fa-phone-alt me-3" style="padding-left: 15px;"></i>01119727579</p>
+                <p><i class="fa fa-envelope me-3" style="padding-left: 15px;"></i>abdelrahmanmohamedhafez83@gmail.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href="https://twitter.com/abdelrahman.data"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://facebook.com/itz.boudii"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@CodeCraft0"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://instagram.com/abdelrahman.data"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/abdelrhmanmohmed/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container wow fadeIn" data-wow-delay="0.1s">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; جميع الحقوق محفوظة. تم تصميم وتطوير هذا الموقع بواسطة <a class="border-bottom" href="README.txt">عبد الرحمن محمد</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="#">الرئيسية</a>
+                        <a href="contact-ar.html">للتواصل</a>
+                        <a href="#contents">المحتوى</a>
+                        <a href="README.txt">حقوق الملكية</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
